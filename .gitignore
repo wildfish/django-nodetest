@@ -1,0 +1,8 @@
+*.log
+*.pot
+*.pyc
+.idea/
+build/
+pubpypi.sh
+node_modules/
+.tox/
