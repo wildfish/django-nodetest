@@ -2,6 +2,11 @@
 
 Test your JavaScript client against your Django application without adding a single template.
 
+    class FooTest(NodeTestCase):
+        def test_create_foo(self):
+            data = self.run_test_script('tests/test-create-foo.js')
+            self.assertTrue(Foo.objects.exists())
+
 
 # Requirements
 
